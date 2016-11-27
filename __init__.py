@@ -5,6 +5,7 @@
 from ui import Ui_Form
 from application import GUI
 from PyQt5.QtWidgets import QApplication, QWidget 
+from PyQt5.QtGui import QIcon
 import os
 
 # shouldn't have used... but need to override closeEvent
@@ -32,5 +33,6 @@ class PyMixerJ(QWidget):
 
 if __name__=="__main__":
     app = QApplication([])
+    app.setWindowIcon(QIcon("icon.png"))
     p = PyMixerJ()
     os._exit(app.exec_())
