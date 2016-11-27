@@ -9,6 +9,10 @@ Inspired by [MixerJs](https://github.com/esayemm/mixerjs)
 * Install libraries (`sudo apt-get install -y python3-dev libasound2-dev`)
 * Install module : 
   `sudo pip3 install simpleaudio PyQt5`
+  or simply
+  `pip3 install -r requirements.txt`
   
 #### Windows and Mac
 * `pip3 install simpleaudio PyQt5` 
+  or simply
+  `pip3 install -r requirements.txt`
