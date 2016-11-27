@@ -6,9 +6,9 @@ class UnequalLengthError(Exception):
 
 
 from PyQt5.QtWidgets import QWidget
-from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtCore import pyqtSignal, QObject
 
-class UpdateTimer(QWidget):
+class UpdateTimer(QObject):
     """ Custom signal emitted by amplifier thread 
         to update the counter label in GUI 
     """
