@@ -19,6 +19,7 @@ class PyMixerJ(QWidget):
         """
         super().__init__()
         self.gui = GUI(self)
+        self.setFixedSize(690, 370)
         self.show()
      
     
